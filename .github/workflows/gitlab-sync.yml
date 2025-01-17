@@ -1,0 +1,31 @@
+name: Sync to GitLab
+
+on:
+  push:
+    branches:
+      - main # GitHub에서 특정 브랜치의 푸시를 감지
+
+jobs:
+  push-to-gitlab:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. GitHub Repository Checkout
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # 2. Configure Git
+      - name: Configure Git
+        run: |
+          git config user.name "yoonc01"
+          git config user.email "yoonc01@hotmail.com"
+
+      # 3. Add GitLab Remote
+      - name: Add GitLab remote
+        run: |
+          git remote add gitlab https://oauth2:${{ secrets.GITLAB_TOKEN }}@gitlab.com/yoonc01/homework.git
+
+      # 4. Push to GitLab
+      - name: Push to GitLab
+        run: |
+          git push gitlab main
