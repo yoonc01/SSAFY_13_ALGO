@@ -23,7 +23,7 @@ jobs:
       # 3. Add GitLab Remote
       - name: Add GitLab remote
         run: |
-          git remote add gitlab https://oauth2:${{ secrets.GITLAB_TOKEN }}@gitlab.com/yoonc01/homework.git
+          git remote add gitlab https://oauth2:${{ secrets.GITLAB_TOKEN }}@lab.ssafy.com/yoonc01/homework.git
 
       # 4. Push to GitLab
       - name: Push to GitLab
