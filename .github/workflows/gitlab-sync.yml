@@ -20,11 +20,12 @@ jobs:
           git config user.name "yoonc01"
           git config user.email "yoonc01@hotmail.com"
 
-      - name: Remove .github directory
+      - name: Remove .github directory and README
         run: |
           rm -rf .github
+          rm -rf README.md
           git add -A
-          git commit -m "Remove .github before pushing to GitLab"
+          git commit -m "Remove .github and README before pushing to GitLab"
 
       - name: Add GitLab remote
         run: |
