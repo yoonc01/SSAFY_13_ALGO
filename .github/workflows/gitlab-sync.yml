@@ -31,4 +31,4 @@ jobs:
       # 4. Push to GitLab
       - name: Push to GitLab
         run: |
-          git push -u gitlab main
+          git push -u gitlab master
