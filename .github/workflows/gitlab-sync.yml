@@ -20,6 +20,12 @@ jobs:
           git config user.name "yoonc01"
           git config user.email "yoonc01@hotmail.com"
 
+      - name: Remove .github directory
+        run: |
+          rm -rf .github
+          git add -A
+          git commit -m "Remove .github before pushing to GitLab"
+
       - name: Add GitLab remote
         run: |
           git remote add gitlab https://oauth2:${{ secrets.GITLAB_TOKEN }}@lab.ssafy.com/yoonc01/homework.git
