@@ -31,4 +31,4 @@ jobs:
       # 4. Push to GitLab (to master branch)
       - name: Push to GitLab
         run: |
-          git push -u gitlab main:master
+          git push -u --force gitlab main:master
