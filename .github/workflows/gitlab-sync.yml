@@ -3,7 +3,7 @@ name: Sync to GitLab
 on:
   push:
     branches:
-      - main
+      - main # GitHub에서 감지할 브랜치 (GitHub의 main 브랜치)
 
 jobs:
   push-to-gitlab:
@@ -28,7 +28,7 @@ jobs:
           git remote add gitlab https://oauth2:${{ secrets.GITLAB_TOKEN }}@lab.ssafy.com/yoonc01/homework.git
           git remote -v
 
-      # 4. Push to GitLab
+      # 4. Push to GitLab (to master branch)
       - name: Push to GitLab
         run: |
-          git push -u gitlab master
+          git push -u gitlab main:master
