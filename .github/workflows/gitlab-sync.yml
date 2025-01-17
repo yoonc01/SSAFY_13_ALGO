@@ -3,7 +3,7 @@ name: Sync to GitLab
 on:
   push:
     branches:
-      - main
+      - main # GitHub에서 감지할 브랜치 (GitHub의 main 브랜치)
 
 jobs:
   push-to-gitlab:
@@ -14,7 +14,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0
+          fetch-depth: 0 # 전체 기록을 가져오기
 
       # 2. Configure Git
       - name: Configure Git
@@ -28,13 +28,7 @@ jobs:
           git remote add gitlab https://oauth2:${{ secrets.GITLAB_TOKEN }}@lab.ssafy.com/yoonc01/homework.git
           git remote -v
 
-      # 4. Fetch and merge changes from GitLab
-      - name: Fetch GitLab master
-        run: |
-          git fetch gitlab master
-          git merge gitlab/master
-
-      # 5. Push to GitLab (to master branch)
+      # 4. Push to GitLab (to master branch)
       - name: Push to GitLab
         run: |
-          git push -u gitlab main:master
+          git push -u --force gitlab main:master
