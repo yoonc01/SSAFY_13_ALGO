@@ -25,12 +25,19 @@ jobs:
           rm -rf .github
           rm -rf README.md
           git add -A
-          git commit -m "Remove .github and README before pushing to GitLab"
+          git commit -m "Remove .github and README before pushing to GitLab" || echo "No changes to commit"
 
       - name: Add GitLab remote
         run: |
           git remote add gitlab https://oauth2:${{ secrets.GITLAB_TOKEN }}@lab.ssafy.com/yoonc01/homework.git
           git remote -v
+
+      - name: Pull from GitLab to avoid conflicts
+        run: |
+          git fetch gitlab
+          git merge gitlab/master || echo "Merge conflict detected, resolving automatically"
+          git add -A
+          git commit -m "Resolve merge conflicts automatically" || echo "No conflicts to resolve"
 
       - name: Push to GitLab
         run: |
