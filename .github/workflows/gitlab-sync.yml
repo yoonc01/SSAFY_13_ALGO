@@ -3,32 +3,28 @@ name: Sync to GitLab
 on:
   push:
     branches:
-      - main # GitHub에서 감지할 브랜치 (GitHub의 main 브랜치)
+      - main
 
 jobs:
   push-to-gitlab:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Checkout the repository with full depth
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0 # 전체 기록을 가져오기
+          fetch-depth: 0
 
-      # 2. Configure Git
       - name: Configure Git
         run: |
           git config user.name "yoonc01"
           git config user.email "yoonc01@hotmail.com"
 
-      # 3. Add GitLab remote
       - name: Add GitLab remote
         run: |
           git remote add gitlab https://oauth2:${{ secrets.GITLAB_TOKEN }}@lab.ssafy.com/yoonc01/homework.git
           git remote -v
 
-      # 4. Push to GitLab (to master branch)
       - name: Push to GitLab
         run: |
-          git push -u --force gitlab main:master
+          git push gitlab main:master
