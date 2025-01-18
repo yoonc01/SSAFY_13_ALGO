@@ -1,5 +1,3 @@
-package a0116.camp;
-
 import java.util.*;
 import java.io.*;
 
