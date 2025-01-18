@@ -9,6 +9,7 @@ public class Solution_d4_7733_치즈도둑_서울_14반_윤효준 {
     static int[] deltaY = {0, 1, 0, -1};
 
     public static void main(String[] args) throws IOException {
+		System.setIn(new FileInputStream("res/input_d4_7733.txt"));
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder resultBuilder = new StringBuilder();
 

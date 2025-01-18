@@ -5,6 +5,7 @@ public class Solution_d3_1289_원재의메모리복구하기_서울_14반_윤효
 
 	public static void main(String[] args) throws Exception
 	{
+		System.setIn(new FileInputStream("res/input_d3_1289.txt"));
 		InputStreamReader isr = new InputStreamReader(System.in);
 		BufferedReader br = new BufferedReader(isr);
 		StringTokenizer st = null;
