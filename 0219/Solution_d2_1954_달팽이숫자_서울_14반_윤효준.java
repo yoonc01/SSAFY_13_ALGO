@@ -1,4 +1,3 @@
-import java.util.*;
 import java.io.*;
 
 public class Solution_d2_1954_달팽이숫자_서울_14반_윤효준 {

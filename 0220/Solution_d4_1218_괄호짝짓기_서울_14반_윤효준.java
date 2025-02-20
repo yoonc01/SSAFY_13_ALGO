@@ -7,7 +7,7 @@ class Solution_d4_1218_괄호짝짓기_서울_14반_윤효준 {
         StringBuilder sb = new StringBuilder();
         
         for (int test_case = 1; test_case <= 10; test_case++) {
-            int length = Integer.parseInt(br.readLine());
+            br.readLine();
             sb.append("#").append(test_case).append(" ");
             String input = br.readLine();
             sb.append(isValidBracketSequence(input) ? 1 : 0).append("\n");

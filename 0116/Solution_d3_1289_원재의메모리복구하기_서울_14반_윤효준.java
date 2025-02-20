@@ -1,4 +1,3 @@
-import java.util.*;
 import java.io.*;
 
 public class Solution_d3_1289_원재의메모리복구하기_서울_14반_윤효준 {
@@ -8,7 +7,6 @@ public class Solution_d3_1289_원재의메모리복구하기_서울_14반_윤효
 		System.setIn(new FileInputStream("res/input_d3_1289.txt"));
 		InputStreamReader isr = new InputStreamReader(System.in);
 		BufferedReader br = new BufferedReader(isr);
-		StringTokenizer st = null;
 		
 		StringBuilder sb = new StringBuilder();
 		int T;
