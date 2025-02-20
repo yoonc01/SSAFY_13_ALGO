@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Solution_d3_5215_햄버거다이어트_서울14반_윤효준 {
+public class Solution_d3_5215_햄버거다이어트_서울_14반_윤효준 {
     public static void main(String[] args) throws IOException {
 		System.setIn(new FileInputStream("res/input_d3_5215.txt"));
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
