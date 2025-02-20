@@ -33,9 +33,8 @@ class Solution_d4_1218_괄호짝짓기_서울_14반_윤효준 {
     }
     
     private static boolean isMatchingPair(char open, char close) {
-        return (open == '{' && close == '}') ||
-               (open == '[' && close == ']') ||
-               (open == '(' && close == ')') ||
-               (open == '<' && close == '>');
+        int asciiOpen = (int) open;
+        int asciiClose = (int) close;
+        return (asciiOpen + 2 == asciiClose || asciiOpen + 1 == asciiClose);
     }
 }
