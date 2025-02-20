@@ -31,6 +31,6 @@
 
 | 문제 번호 | 문제 이름                                                                                                        | 풀이 파일 경로    |
 | --------- | ---------------------------------------------------------------------------------------------------------------- | ----------------- |
-| 1         | [햄버거 다이어트](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWT-lPB6dHUDFAVT) | [0220/problem1]() |
+| 1         | [햄버거 다이어트](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWT-lPB6dHUDFAVT) | [0220/Solution_d3_5215_햄버거다이어트_서울_14반_윤효준.java](https://github.com/yoonc01/SSAFY_13_ALGO/blob/main/0220/Solution_d3_5215_%ED%96%84%EB%B2%84%EA%B1%B0%EB%8B%A4%EC%9D%B4%EC%96%B4%ED%8A%B8_%EC%84%9C%EC%9A%B8_14%EB%B0%98_%EC%9C%A4%ED%9A%A8%EC%A4%80.java) |
 | 2         | [파리 퇴치](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PzOCKAigDFAUq)       | [0220/problem2]() |
 | 3         | [괄호 짝짓기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14eWb6AAkCFAYD)     | [0220/problem3]() |
