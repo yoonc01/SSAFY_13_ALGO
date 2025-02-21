@@ -34,3 +34,11 @@
 | 1         | [햄버거 다이어트](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWT-lPB6dHUDFAVT) | [0220/Solution_d3_5215_햄버거다이어트_서울_14반_윤효준](https://github.com/yoonc01/SSAFY_13_ALGO/blob/main/0220/Solution_d3_5215_%ED%96%84%EB%B2%84%EA%B1%B0%EB%8B%A4%EC%9D%B4%EC%96%B4%ED%8A%B8_%EC%84%9C%EC%9A%B8_14%EB%B0%98_%EC%9C%A4%ED%9A%A8%EC%A4%80.java) |
 | 2         | [파리 퇴치](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PzOCKAigDFAUq)       | [0220/Solution_d2_2001_파리퇴치_서울_14반_윤효준](https://github.com/yoonc01/SSAFY_13_ALGO/blob/main/0220/Solution_d2_2001_%ED%8C%8C%EB%A6%AC%ED%87%B4%EC%B9%98_%EC%84%9C%EC%9A%B8_14%EB%B0%98_%EC%9C%A4%ED%9A%A8%EC%A4%80.java) |
 | 3         | [괄호 짝짓기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14eWb6AAkCFAYD)     | [0220/Solution_d4_1218_괄호짝짓기_서울_14반_윤효준](https://github.com/yoonc01/SSAFY_13_ALGO/blob/main/0220/Solution_d4_1218_%EA%B4%84%ED%98%B8%EC%A7%9D%EC%A7%93%EA%B8%B0_%EC%84%9C%EC%9A%B8_14%EB%B0%98_%EC%9C%A4%ED%9A%A8%EC%A4%80.java) |
+
+---
+
+### 📅 2025년 2월 21일 (0221)
+
+| 문제 번호 | 문제 이름                                                                                                        | 풀이 파일 경로    |
+| --------- | ---------------------------------------------------------------------------------------------------------------- | ----------------- |
+| 1         | [암호 생성기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14uWl6AF0CFAYD) | [0221/Solution_d3_1225_암호생성기_서울_14반_윤효준](https://github.com/yoonc01/SSAFY_13_ALGO/blob/main/0221/Solution_d3_1225_%EC%95%94%ED%98%B8%EC%83%9D%EC%84%B1%EA%B8%B0_%EC%84%9C%EC%9A%B8_14%EB%B0%98_%EC%9C%A4%ED%9A%A8%EC%A4%80.java) |
