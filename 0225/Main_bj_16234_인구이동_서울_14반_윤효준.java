@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Solution_g4_16234_인구이동_서울_14반_윤효준
+public class Main_bj_16234_인구이동_서울_14반_윤효준
 {
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static StringTokenizer st;
