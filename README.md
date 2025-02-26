@@ -51,5 +51,14 @@
 | 문제 번호 | 문제 이름                                                                                                        | 풀이 파일 경로    |
 | --------- | ---------------------------------------------------------------------------------------------------------------- | ----------------- |
 | 1         | [인구 이동](https://www.acmicpc.net/problem/16234) | [0225/Solution_g4_16234_인구이동_서울_14반_윤효준](https://github.com/yoonc01/SSAFY_13_ALGO/blob/main/0225/Solution_g4_16234_%EC%9D%B8%EA%B5%AC%EC%9D%B4%EB%8F%99_%EC%84%9C%EC%9A%B8_14%EB%B0%98_%EC%9C%A4%ED%9A%A8%EC%A4%80.java) |
-| 2         | [햄버거 다이어트(nextPermutation을 이용한 조합 풀이)](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWT-lPB6dHUDFAVT) | [0221/Solution_d3_5215_햄버거다이어트_서울_14반_윤효준](https://github.com/yoonc01/SSAFY_13_ALGO/blob/main/0225/Solution_d3_5215_%ED%96%84%EB%B2%84%EA%B1%B0%EB%8B%A4%EC%9D%B4%EC%96%B4%ED%8A%B8_%EC%84%9C%EC%9A%B8_14%EB%B0%98_%EC%9C%A4%ED%9A%A8%EC%A4%80.java) |    
+| 2         | [햄버거 다이어트(nextPermutation을 이용한 조합 풀이)](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWT-lPB6dHUDFAVT) | [0225/Solution_d3_5215_햄버거다이어트_서울_14반_윤효준](https://github.com/yoonc01/SSAFY_13_ALGO/blob/main/0225/Solution_d3_5215_%ED%96%84%EB%B2%84%EA%B1%B0%EB%8B%A4%EC%9D%B4%EC%96%B4%ED%8A%B8_%EC%84%9C%EC%9A%B8_14%EB%B0%98_%EC%9C%A4%ED%9A%A8%EC%A4%80.java) |    
+
+---
+### 📅 2025년 2월 26일 (0226)
+
+| 문제 번호 | 문제 이름                                                                                                        | 풀이 파일 경로    |
+| --------- | ---------------------------------------------------------------------------------------------------------------- | ----------------- |
+| 1         | [의석이의 우뚝 선 산](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWS2h6AKBCoDFAVT) | [0226/Solution_d4_4796_의석이의우뚝선산_서울_14반_윤효준](https://github.com/yoonc01/SSAFY_13_ALGO/blob/main/0226/Solution_d4_4796_%EC%9D%98%EC%84%9D%EC%9D%B4%EC%9D%98%EC%9A%B0%EB%9A%9D%EC%84%A0%EC%82%B0_%EC%84%9C%EC%9A%B8_14%EB%B0%98_%EC%9C%A4%ED%9A%A8%EC%A4%80.java) |
+| 2         | [농작물 수확하기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV7GLXqKAWYDFAXB) | [0226/Solution_d3_2805_농작물수확하기_서울_14반_윤효준](https://github.com/yoonc01/SSAFY_13_ALGO/blob/main/0226/Solution_d3_2805_%EB%86%8D%EC%9E%91%EB%AC%BC%EC%88%98%ED%99%95%ED%95%98%EA%B8%B0_%EC%84%9C%EC%9A%B8_14%EB%B0%98_%EC%9C%A4%ED%9A%A8%EC%A4%80.java) |    
+| 3         | [장훈이의 높은 선반](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV2b7Yf6ABcBBASw) | [0226/Solution_d4_1486_장훈이의높은선반_서울_14반_윤효준](https://github.com/yoonc01/SSAFY_13_ALGO/blob/main/0226/Solution_d4_1486_%EC%9E%A5%ED%9B%88%EC%9D%B4%EC%9D%98%EB%86%92%EC%9D%80%EC%84%A0%EB%B0%98_%EC%84%9C%EC%9A%B8_14%EB%B0%98_%EC%9C%A4%ED%9A%A8%EC%A4%80.java) |    
 
