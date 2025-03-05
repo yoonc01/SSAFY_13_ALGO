@@ -13,9 +13,7 @@ class Solution_d5_6782_현주가좋아하는제곱근놀이_서울_14반_윤효�
             cnt = 0;
             num = Long.parseLong(br.readLine());
             while (num != 2) {
-                nextNum = (int) Math.sqrt(num);
-                if (nextNum != Math.sqrt(num))
-                    nextNum++;
+                nextNum = (int) Math.ceil(Math.sqrt(num));
 
                 cnt = cnt + nextNum * nextNum - num + 1;
                 num = nextNum;
