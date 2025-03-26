@@ -62,3 +62,50 @@
 | 2         | [농작물 수확하기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV7GLXqKAWYDFAXB) | [0226/Solution_d3_2805_농작물수확하기_서울_14반_윤효준](https://github.com/yoonc01/SSAFY_13_ALGO/blob/main/0226/Solution_d3_2805_%EB%86%8D%EC%9E%91%EB%AC%BC%EC%88%98%ED%99%95%ED%95%98%EA%B8%B0_%EC%84%9C%EC%9A%B8_14%EB%B0%98_%EC%9C%A4%ED%9A%A8%EC%A4%80.java) |    
 | 3         | [장훈이의 높은 선반](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV2b7Yf6ABcBBASw) | [0226/Solution_d4_1486_장훈이의높은선반_서울_14반_윤효준](https://github.com/yoonc01/SSAFY_13_ALGO/blob/main/0226/Solution_d4_1486_%EC%9E%A5%ED%9B%88%EC%9D%B4%EC%9D%98%EB%86%92%EC%9D%80%EC%84%A0%EB%B0%98_%EC%84%9C%EC%9A%B8_14%EB%B0%98_%EC%9C%A4%ED%9A%A8%EC%A4%80.java) |    
 
+---
+### 📅 2025년 2월 27일 (0227)
+
+| 문제 번호 | 문제 이름                                                                                                        | 풀이 파일 경로    |
+| --------- | ---------------------------------------------------------------------------------------------------------------- | ----------------- |
+| 1         | [정사각형 방](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5LtJYKDzsDFAXc) | [0227/Solution_d4_1861_정사각형방_서울_14반_윤효준](https://github.com/yoonc01/SSAFY_13_ALGO/blob/main/0227/Solution_d4_1861_%EC%A0%95%EC%82%AC%EA%B0%81%ED%98%95%EB%B0%A9_%EC%84%9C%EC%9A%B8_14%EB%B0%98_%EC%9C%A4%ED%9A%A8%EC%A4%80.java) |
+
+---
+### 📅 2025년 3월 4일 (0304)
+
+| 문제 번호 | 문제 이름                                                                                                        | 풀이 파일 경로    |
+| --------- | ---------------------------------------------------------------------------------------------------------------- | ----------------- |
+| 1         | [현주가 좋아하는 제곱근 놀이](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWgqsAlKr9sDFAW0) | [0304/Solution_d5_6782_현주가좋아하는제곱근놀이_서울_14반_윤효준](https://github.com/yoonc01/SSAFY_13_ALGO/blob/main/0304/Solution_d5_6782_%ED%98%84%EC%A3%BC%EA%B0%80%EC%A2%8B%EC%95%84%ED%95%98%EB%8A%94%EC%A0%9C%EA%B3%B1%EA%B7%BC%EB%86%80%EC%9D%B4_%EC%84%9C%EC%9A%B8_14%EB%B0%98_%EC%9C%A4%ED%9A%A8%EC%A4%80.java) |
+
+
+---
+### 📅 2025년 3월 5일 (0305)
+
+| 문제 번호 | 문제 이름                                                                                                        | 풀이 파일 경로    |
+| --------- | ---------------------------------------------------------------------------------------------------------------- | ----------------- |
+| 1         | [상호의 배틀필드](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5LyE7KD2ADFAXc) | [0305/Solution_d3_1873_상호의배틀필드_서울_14반_윤효준](https://github.com/yoonc01/SSAFY_13_ALGO/blob/main/0305/Solution_d3_1873_%EC%83%81%ED%98%B8%EC%9D%98%EB%B0%B0%ED%8B%80%ED%95%84%EB%93%9C_%EC%84%9C%EC%9A%B8_14%EB%B0%98_%EC%9C%A4%ED%9A%A8%EC%A4%80.java) |
+
+
+---
+### 📅 2025년 3월 6일 (0306)
+
+| 문제 번호 | 문제 이름                                                                                                        | 풀이 파일 경로    |
+| --------- | ---------------------------------------------------------------------------------------------------------------- | ----------------- |
+| 1         | [치즈도둑](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWrDOdQqRCUDFARG) | [0306/Solution_d4_7733_치즈도둑_서울_14반_윤효준](https://github.com/yoonc01/SSAFY_13_ALGO/blob/main/0306/Solution_d4_7733_%EC%B9%98%EC%A6%88%EB%8F%84%EB%91%91_%EC%84%9C%EC%9A%B8_14%EB%B0%98_%EC%9C%A4%ED%9A%A8%EC%A4%80.java) |
+| 2         | [파핑파핑 지뢰찾기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5LwsHaD1MDFAXc) | [0306/Solution_d4_1868_파핑파핑지뢰찾기_서울_14반_윤효준](https://github.com/yoonc01/SSAFY_13_ALGO/blob/main/0306/Solution_d4_1868_%ED%8C%8C%ED%95%91%ED%8C%8C%ED%95%91%EC%A7%80%EB%A2%B0%EC%B0%BE%EA%B8%B0_%EC%84%9C%EC%9A%B8_14%EB%B0%98_%EC%9C%A4%ED%9A%A8%EC%A4%80.java) |
+
+---
+### 📅 2025년 3월 7일 (0307)
+
+| 문제 번호 | 문제 이름                                                                                                        | 풀이 파일 경로    |
+| --------- | ---------------------------------------------------------------------------------------------------------------- | ----------------- |
+| 1         | [디저트 카페](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5VwAr6APYDFAWu) | [0307/Solution_d9_2105_디저트카페_서울_14반_윤효준](https://github.com/yoonc01/SSAFY_13_ALGO/blob/main/0307/Solution_d9_2105_%EB%94%94%EC%A0%80%ED%8A%B8%EC%B9%B4%ED%8E%98_%EC%84%9C%EC%9A%B8_14%EB%B0%98_%EC%9C%A4%ED%9A%A8%EC%A4%80.java) |
+
+---
+### 📅 2025년 3월 26일 (0326)
+
+| 문제 번호 | 문제 이름                                                                                                        | 풀이 파일 경로    |
+| --------- | ---------------------------------------------------------------------------------------------------------------- | ----------------- |
+| 1         | [창용 마을 무리의 개수](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWngfZVa9XwDFAQU) | [0326/Solution_d4_7465_창용마을무리의개수_서울_14반_윤효준](https://github.com/yoonc01/SSAFY_13_ALGO/blob/main/0326/Solution_d4_7465_%EC%B0%BD%EC%9A%A9%EB%A7%88%EC%9D%84%EB%AC%B4%EB%A6%AC%EC%9D%98%EA%B0%9C%EC%88%98_%EC%84%9C%EC%9A%B8_14%EB%B0%98_%EC%9C%A4%ED%9A%A8%EC%A4%80.java)  |
+| 2         | [서로소 집합](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWBJKA6qr2oDFAWr) | [0326/Solution_d4_3289_서로소집합_서울_14반_윤효준](https://github.com/yoonc01/SSAFY_13_ALGO/blob/main/0326/Solution_d4_3289_%EC%84%9C%EB%A1%9C%EC%86%8C%EC%A7%91%ED%95%A9_%EC%84%9C%EC%9A%B8_14%EB%B0%98_%EC%9C%A4%ED%9A%A8%EC%A4%80.java) |
+| 3         | [Contact](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV15B1cKAKwCFAYD) | [0326/Solution_d4_1238_Contact_서울_14반_윤효준](https://github.com/yoonc01/SSAFY_13_ALGO/blob/main/0326/Solution_d4_1238_Contact_%EC%84%9C%EC%9A%B8_14%EB%B0%98_%EC%9C%A4%ED%9A%A8%EC%A4%80.java) |
+
