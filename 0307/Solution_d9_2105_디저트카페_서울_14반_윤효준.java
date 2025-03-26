@@ -7,34 +7,29 @@ public class Solution_d9_2105_디저트카페_서울_14반_윤효준 {
     static StringTokenizer st;
     static int n, T, ans, map[][];
     static Set<Integer> visited = new HashSet<>();
-    static int dxs[] = {1, 1, -1, -1}, dys[] = {1, -1, -1, 1};
+    static int dxs[] = { 1, 1, -1, -1 }, dys[] = { 1, -1, -1, 1 };
 
-    static boolean inRange(int a, int b)
-    {
+    static boolean inRange(int a, int b) {
         return (0 <= a && a < n && 0 <= b && b < n);
     }
 
-    static boolean canGo(int x, int y)
-    {
+    static boolean canGo(int x, int y) {
         return (inRange(x, y) && !visited.contains(map[x][y]));
     }
 
-    static void getScore(int x, int y, int w, int h)
-    {
+    static void getScore(int x, int y, int w, int h) {
         visited.clear();
-        int moveNum[] = {w, h, w, h};
+        int moveNum[] = { w, h, w, h };
         int cnt = 0;
 
-        for (int dir = 0; dir < 4; dir++)
-        {
-            for (int len = 0; len < moveNum[dir]; len++)
-            {
+        for (int dir = 0; dir < 4; dir++) {
+            for (int len = 0; len < moveNum[dir]; len++) {
                 x = x + dxs[dir];
                 y = y + dys[dir];
 
                 if (!canGo(x, y))
                     return;
-                cnt++; 
+                cnt++;
                 visited.add(map[x][y]);
             }
         }
@@ -43,13 +38,11 @@ public class Solution_d9_2105_디저트카페_서울_14반_윤효준 {
 
     public static void main(String[] args) throws IOException {
         T = Integer.parseInt(br.readLine());
-        for (int tc = 1; tc <= T; tc++)
-        {
+        for (int tc = 1; tc <= T; tc++) {
             ans = -1;
             n = Integer.parseInt(br.readLine());
             map = new int[n][n];
-            for (int i = 0; i < n; i++)
-            {
+            for (int i = 0; i < n; i++) {
                 st = new StringTokenizer(br.readLine());
                 for (int j = 0; j < n; j++)
                     map[i][j] = Integer.parseInt(st.nextToken());

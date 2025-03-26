@@ -5,7 +5,7 @@ class Solution_d4_1868_파핑파핑지뢰찾기_서울_14반_윤효준 {
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static StringBuilder sb = new StringBuilder();
     static int n, T, ans, map[][];
-    static int dxs[] = {0, 1, 1, 1, 0, -1, -1, -1}, dys[] = {1, 1, 0, -1, -1, -1, 0, 1};
+    static int dxs[] = { 0, 1, 1, 1, 0, -1, -1, -1 }, dys[] = { 1, 1, 0, -1, -1, -1, 0, 1 };
     static char charMap[][];
     static boolean visited[][];
 
@@ -19,7 +19,7 @@ class Solution_d4_1868_파핑파핑지뢰찾기_서울_14반_윤효준 {
 
     static void bfs(int a, int b) {
         ArrayDeque<int[]> q = new ArrayDeque<>();
-        q.addLast(new int[]{a, b});
+        q.addLast(new int[] { a, b });
         visited[a][b] = true;
 
         while (!q.isEmpty()) {
@@ -34,7 +34,7 @@ class Solution_d4_1868_파핑파핑지뢰찾기_서울_14반_윤효준 {
                 if (canGo(nx, ny)) {
                     visited[nx][ny] = true;
                     if (map[nx][ny] == 0) {
-                        q.addLast(new int[]{nx, ny});
+                        q.addLast(new int[] { nx, ny });
                     }
                 }
             }

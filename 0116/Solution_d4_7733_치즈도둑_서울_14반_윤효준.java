@@ -5,11 +5,11 @@ public class Solution_d4_7733_치즈도둑_서울_14반_윤효준 {
     static int testCaseCount, boardSize;
     static int[][] cheeseBoard = new int[101][101];
     static boolean[][] isVisited = new boolean[101][101];
-    static int[] deltaX = {1, 0, -1, 0};
-    static int[] deltaY = {0, 1, 0, -1};
+    static int[] deltaX = { 1, 0, -1, 0 };
+    static int[] deltaY = { 0, 1, 0, -1 };
 
     public static void main(String[] args) throws IOException {
-		System.setIn(new FileInputStream("res/input_d4_7733.txt"));
+        System.setIn(new FileInputStream("res/input_d4_7733.txt"));
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder resultBuilder = new StringBuilder();
 
@@ -33,7 +33,7 @@ public class Solution_d4_7733_치즈도둑_서울_14반_윤효준 {
                 for (int row = 0; row < boardSize; row++) {
                     for (int column = 0; column < boardSize; column++) {
                         if (cheeseBoard[row][column] > day && !isVisited[row][column]) {
-                            bfsQueue.offer(new int[]{row, column});
+                            bfsQueue.offer(new int[] { row, column });
                             isVisited[row][column] = true;
                             connectedPieces++;
 
@@ -43,10 +43,12 @@ public class Solution_d4_7733_치즈도둑_서울_14반_윤효준 {
                                     int newRow = currentPosition[0] + deltaX[direction];
                                     int newColumn = currentPosition[1] + deltaY[direction];
 
-                                    if (newRow < 0 || newRow >= boardSize || newColumn < 0 || newColumn >= boardSize) continue;
-                                    if (isVisited[newRow][newColumn] || cheeseBoard[newRow][newColumn] <= day) continue;
+                                    if (newRow < 0 || newRow >= boardSize || newColumn < 0 || newColumn >= boardSize)
+                                        continue;
+                                    if (isVisited[newRow][newColumn] || cheeseBoard[newRow][newColumn] <= day)
+                                        continue;
 
-                                    bfsQueue.offer(new int[]{newRow, newColumn});
+                                    bfsQueue.offer(new int[] { newRow, newColumn });
                                     isVisited[newRow][newColumn] = true;
                                 }
                             }

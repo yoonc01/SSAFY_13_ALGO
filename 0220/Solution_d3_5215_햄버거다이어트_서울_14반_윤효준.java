@@ -7,13 +7,11 @@ public class Solution_d3_5215_햄버거다이어트_서울_14반_윤효준 {
     static int[][] data;
 
     static void comb(int cnt, int start, int totalScore, int totalCalorie) {
-        if (cnt == r)
-        {
+        if (cnt == r) {
             ans = Math.max(ans, totalScore);
             return;
         }
-        for (int i = start; i < n; i++)
-        {
+        for (int i = start; i < n; i++) {
             if (totalCalorie + data[i][1] <= limit)
                 comb(cnt + 1, i + 1, totalScore + data[i][0], totalCalorie + data[i][1]);
         }

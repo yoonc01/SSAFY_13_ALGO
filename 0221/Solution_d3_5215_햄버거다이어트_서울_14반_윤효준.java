@@ -7,11 +7,13 @@ public class Solution_d3_5215_햄버거다이어트_서울_14반_윤효준 {
     static int[][] data;
 
     static void subs(int idx, int totalScore, int totalCalorie) {
-        if (totalCalorie > limit) return;
+        if (totalCalorie > limit)
+            return;
 
         ans = Math.max(ans, totalScore);
 
-        if (idx == n) return;
+        if (idx == n)
+            return;
 
         subs(idx + 1, totalScore + data[idx][0], totalCalorie + data[idx][1]);
         subs(idx + 1, totalScore, totalCalorie);

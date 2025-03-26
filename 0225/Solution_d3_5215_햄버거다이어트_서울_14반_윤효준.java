@@ -7,30 +7,26 @@ public class Solution_d3_5215_햄버거다이어트_서울_14반_윤효준 {
     static StringBuilder resultBuilder = new StringBuilder();
     static int n, limit, ans, totalCalorie, totalScore, choose[], data[][];
 
-    static void initChooseArray(int r)
-    {
+    static void initChooseArray(int r) {
         choose = new int[n];
         int idx = n - 1;
-        while(r > 0)
-        {
+        while (r > 0) {
             choose[idx] = 1;
             r--;
             idx--;
         }
     }
 
-    static boolean nextPermutation()
-    {
+    static boolean nextPermutation() {
         int i = n - 1, j = n - 1, k = n - 1;
-        while(i != 0 && choose[i - 1] >= choose[i])
+        while (i != 0 && choose[i - 1] >= choose[i])
             i--;
         if (i == 0)
             return false;
-        while(choose[i - 1] >= choose[j])
+        while (choose[i - 1] >= choose[j])
             j--;
         swap(i - 1, j);
-        while(i < k)
-        {
+        while (i < k) {
             swap(i, k);
             i++;
             k--;
@@ -38,8 +34,7 @@ public class Solution_d3_5215_햄버거다이어트_서울_14반_윤효준 {
         return true;
     }
 
-    static void swap(int i, int j)
-    {
+    static void swap(int i, int j) {
         int temp = choose[i];
         choose[i] = choose[j];
         choose[j] = temp;
@@ -60,17 +55,13 @@ public class Solution_d3_5215_햄버거다이어트_서울_14반_윤효준 {
                 data[i][0] = Integer.parseInt(st.nextToken());
                 data[i][1] = Integer.parseInt(st.nextToken());
             }
-            for (int r = 0; r <= n; r++)
-            {
+            for (int r = 0; r <= n; r++) {
                 initChooseArray(r);
-                while(true)
-                {
+                while (true) {
                     totalScore = 0;
                     totalCalorie = 0;
-                    for (int i = 0; i < n; i++)
-                    {
-                        if (choose[i] == 1)
-                        {
+                    for (int i = 0; i < n; i++) {
+                        if (choose[i] == 1) {
                             totalScore = totalScore + data[i][0];
                             totalCalorie = totalCalorie + data[i][1];
                         }

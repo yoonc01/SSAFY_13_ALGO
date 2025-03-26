@@ -8,8 +8,7 @@ public class Solution_d4_1486_장훈이의높은선반_서울_14반_윤효준 {
     static StringTokenizer st;
 
     static void comb(int cnt, int totalHeight) {
-        if (cnt == n)
-        {
+        if (cnt == n) {
             if (totalHeight >= b)
                 ans = Math.min(ans, totalHeight);
             return;
@@ -20,8 +19,7 @@ public class Solution_d4_1486_장훈이의높은선반_서울_14반_윤효준 {
 
     public static void main(String[] args) throws IOException {
         t = Integer.parseInt(br.readLine());
-        for (int tc = 1; tc <= t; tc++)
-        {
+        for (int tc = 1; tc <= t; tc++) {
             st = new StringTokenizer(br.readLine());
             n = Integer.parseInt(st.nextToken());
             b = Integer.parseInt(st.nextToken());
