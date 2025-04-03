@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Solution_d4_7733_치즈도둑_서울_14반_윤효준 {
+public class Solution_d4_7733_치즈도둑_서울_14반_윤효준1 {
     static int testCaseCount, boardSize;
     static int[][] cheeseBoard = new int[101][101];
     static boolean[][] isVisited = new boolean[101][101];

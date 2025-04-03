@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 
 // 부분 집합 코드로 풀이
-public class Solution_d3_5215_햄버거다이어트_서울_14반_윤효준 {
+public class Solution_d3_5215_햄버거다이어트_서울_14반_윤효준3 {
     static int n, limit, ans;
     static int[][] data;
 

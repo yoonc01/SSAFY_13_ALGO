@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Solution_d4_7733_치즈도둑_서울_14반_윤효준 {
+public class Solution_d4_7733_치즈도둑_서울_14반_윤효준2 {
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static StringBuilder sb = new StringBuilder();
     static StringTokenizer st;

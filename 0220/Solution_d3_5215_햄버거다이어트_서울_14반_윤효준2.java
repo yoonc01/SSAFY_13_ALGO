@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 
 // 조합으로 풀이
-public class Solution_d3_5215_햄버거다이어트_서울_14반_윤효준 {
+public class Solution_d3_5215_햄버거다이어트_서울_14반_윤효준2 {
     static int n, r, limit, ans;
     static int[][] data;
 

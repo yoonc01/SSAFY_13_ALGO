@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 
 // next permutation을 이용한 조합 문제 풀이
-public class Solution_d3_5215_햄버거다이어트_서울_14반_윤효준 {
+public class Solution_d3_5215_햄버거다이어트_서울_14반_윤효준4 {
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static StringBuilder resultBuilder = new StringBuilder();
     static int n, limit, ans, totalCalorie, totalScore, choose[], data[][];
