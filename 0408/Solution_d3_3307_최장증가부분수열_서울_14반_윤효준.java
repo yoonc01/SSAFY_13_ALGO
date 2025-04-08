@@ -26,7 +26,7 @@ public class Solution_d3_3307_최장증가부분수열_서울_14반_윤효준 {
                 }
                 ans = Math.max(ans, dp[i]);
             }
-            sb.append("#").append(tc).append(" ").append(ans + 1).append("\n");
+            sb.append("#").append(tc).append(" ").append(ans).append("\n");
         }
         System.out.print(sb);
     }
