@@ -5,7 +5,7 @@ public class Solution_d3_3307_최장증가부분수열_서울_14반_윤효준 {
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static StringBuilder sb = new StringBuilder();
     static StringTokenizer st;
-    static int T, n, l, ans, seq[], dp[];
+    static int T, n, ans, seq[], dp[];
 
     public static void main(String[] args) throws IOException {
         T = Integer.parseInt(br.readLine());
@@ -18,15 +18,13 @@ public class Solution_d3_3307_최장증가부분수열_서울_14반_윤효준 {
 
             for (int i = 0; i < n; i++) {
                 seq[i] = Integer.parseInt(st.nextToken());
-            }
-            for (int i = 0; i < n; i++) {
                 for (int j = 0; j <= i; j++) {
                     if (seq[i] > seq[j] && dp[j] + 1 > dp[i])
                         dp[i] = dp[j] + 1;
                 }
                 ans = Math.max(ans, dp[i]);
             }
-            sb.append("#").append(tc).append(" ").append(ans).append("\n");
+            sb.append("#").append(tc).append(" ").append(ans + 1).append("\n");
         }
         System.out.print(sb);
     }
